@@ -1,13 +1,13 @@
 -- Drop and create data tables for CrewlyWeds
 -- ERD: https://app.diagrams.net/#G1kPcrc30ZsDYApZOsROnI3mynjO8Na3uv
 
-DROP TABLE IF EXISTS players;
-DROP TABLE IF EXISTS sessions;
-DROP TABLE IF EXISTS avatars;
-DROP TABLE IF EXISTS submissions;
-DROP TABLE IF EXISTS questions;
-DROP TABLE IF EXISTS rounds;
-DROP TABLE IF EXISTS choices;
+DROP TABLE IF EXISTS players CASCADE;
+DROP TABLE IF EXISTS sessions CASCADE;
+DROP TABLE IF EXISTS avatars CASCADE;
+DROP TABLE IF EXISTS submissions CASCADE;
+DROP TABLE IF EXISTS questions CASCADE;
+DROP TABLE IF EXISTS rounds CASCADE;
+DROP TABLE IF EXISTS choices CASCADE;
 
 CREATE TABLE sessions (
   id SERIAL PRIMARY KEY,
