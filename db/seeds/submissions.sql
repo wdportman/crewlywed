@@ -1,3 +1,45 @@
-INSERT INTO submissions (submitter_id, round_id)
+INSERT INTO submissions (submitter_id, round_id, text)
 VALUES
-( , )
+--Session 1 Round 1:
+( , , ),
+( , , ),
+( , , )
+--Session 1 Round 2:
+( , , ),
+( , , ),
+( , , )
+--Session 1 Round 3:
+( , , ),
+( , , ),
+( , , )
+--Session 2, Round 1:
+( , , ),
+( , , ),
+( , , ),
+( , , ),
+( , , )
+--Session 2, Round 2:
+( , , ),
+( , , ),
+( , , ),
+( , , ),
+( , , )
+--Session 2, Round 3:
+( , , ),
+( , , ),
+( , , ),
+( , , ),
+( , , )
+--Session 2, Round 4:
+( , , ),
+( , , ),
+( , , ),
+( , , ),
+( , , )
+--Session 2, Round 5:
+( , , ),
+( , , ),
+( , , ),
+( , , ),
+( , , )
+;
